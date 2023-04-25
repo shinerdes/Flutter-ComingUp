@@ -286,7 +286,7 @@ class _NewScreenState extends State<NewScreen> {
                               image: _getPhoto(_pickedFile),
                               height: 100,
                               width: 100,
-                              fit: BoxFit.fill),
+                              fit: BoxFit.fitHeight),
                         ),
                         Column(
                           mainAxisAlignment: MainAxisAlignment.center,

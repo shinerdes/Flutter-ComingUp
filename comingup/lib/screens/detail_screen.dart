@@ -142,7 +142,7 @@ class _DetailScreenState extends State<DetailScreen> {
                             image: _getPhoto(widget.image),
                             height: 100,
                             width: 100,
-                            fit: BoxFit.fill),
+                            fit: BoxFit.fitHeight),
                       ),
                     ],
                   ),

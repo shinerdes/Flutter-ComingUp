@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'dart:io';
-
 import 'package:comingup/screens/home_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
@@ -220,7 +219,7 @@ class _FixScreenState extends State<FixScreen> {
                               image: _getPhoto(widget.image),
                               height: 100,
                               width: 100,
-                              fit: BoxFit.fill),
+                              fit: BoxFit.fitHeight),
                         ),
                         Column(
                           mainAxisAlignment: MainAxisAlignment.center,
